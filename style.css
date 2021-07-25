@@ -1,8 +1,13 @@
 body {
 
-    background-color: #0C0D11;
     margin-top: 0%;
     padding: 0%;
+
+}
+
+html {
+
+    background-color: #0C0D11;
 
 }
 
@@ -10,7 +15,7 @@ body {
     
     display: flex;
     justify-content: space-between;
-    background-color: #030106;
+    background-color: #090909;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 
@@ -28,7 +33,8 @@ body {
 
     font-size: 30px;
     font-family: 'Tourney', cursive;
-    color: rgb(179, 245, 225);
+    /*color: rgb(179, 245, 225);*/
+    color: cornflowerblue;
     margin-right: 5%;
     margin-top: auto;
     margin-bottom: auto;
@@ -39,8 +45,8 @@ body {
 
     position: absolute;
     left: 20%;
-    border-left: solid black 3px;
     padding-left: 2%;
+    border-left: solid black;
 
 }
 
