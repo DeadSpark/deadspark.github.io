@@ -1,0 +1,53 @@
+body {
+
+    background-color: #0C0D11;
+    margin-top: 0%;
+    padding: 0%;
+
+}
+
+#pageHead {
+    
+    display: flex;
+    justify-content: space-between;
+    background-color: #030106;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+#headerIcon {
+
+    margin-left: 5%;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+#headerText {
+
+    font-size: 30px;
+    font-family: 'Tourney', cursive;
+    color: rgb(179, 245, 225);
+    margin-right: 5%;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+#codeBox {
+
+    position: absolute;
+    left: 20%;
+    border-left: solid black 3px;
+    padding-left: 2%;
+
+}
+
+#codeBoxCode {
+
+    font-size: 17px;
+    font-family: 'JetBrains Mono', monospace;
+    color: wheat;
+
+}
