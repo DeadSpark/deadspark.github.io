@@ -1,19 +1,43 @@
 window.onload = setInterval(() => {
 
-    var randomInt = getRandomInt(6);
+    var randomInt = getRandomInt(11);
 
-    if (randomInt == 0) {
-        setCodeText("User");
-    } else if (randomInt == 1) {
-        setCodeText("Friend");
-    } else if (randomInt == 2) {
-        setCodeText("Programmer");
-    } else if (randomInt == 3) {
-        setCodeText("Coder");
-    } else if (randomInt == 4) {
-        setCodeText("Nerd");
-    } else if (randomInt == 5) {
-        setCodeText("Helper");
+    switch (randomInt) {
+        case 0:
+            setCodeText("Hello User welcome to hell");
+            break;
+        case 1:
+            setCodeText("Hey Friend");
+            break;
+        case 2:
+            setCodeText("Hola Programmer");
+            break;
+        case 3:
+            setCodeText("Welcome Amigo");
+            break;
+        case 4:
+            setCodeText("You here for code?");
+            break;
+        case 5:
+            setCodeText("I was expecting you");
+            break;
+        case 6:
+            setCodeText("We are no strangers to code");
+            break;
+        case 7:
+            setCodeText("Arent you popular to be here");
+            break;
+        case 9:
+            setCodeText("Welcome to welcoming place")
+            break;
+        case 10:
+            setCodeText("Happy faces and shoe laces");
+            break;
+    
+        default:
+            setCodeText("Welcome");
+            break;
+        
     }
 
 }, 1000);
@@ -22,7 +46,7 @@ function getRandomInt(max) {
     return Math.floor(Math.random() * max);
 }
 
-function setCodeText(nameString) {
+function setCodeText(outputString) {
 
     var codeText = document.getElementById("codeBoxCode");
 
@@ -30,9 +54,13 @@ function setCodeText(nameString) {
         "<br><br>" +
         "public class Welcome {<br><br>" +
         "&emsp;&emsp;public static void main(String[] args) {<br><br>" +
-        "&emsp;&emsp;&emsp;System.out.println(\"Hello " + nameString + "\");<br><br>" +
+        "&emsp;&emsp;&emsp;System.out.println(\"" + outputString + "\");<br><br>" +
         "&emsp;&emsp;}<br><br>" +
         "}" +
         "<br><br>";
         
+}
+
+function redirectWyr() {
+    window.location = "https://www.spigotmc.org/resources/would-you-rather.89635/";
 }
