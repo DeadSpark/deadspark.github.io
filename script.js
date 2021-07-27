@@ -64,3 +64,11 @@ function setCodeText(outputString) {
 function redirectWyr() {
     window.location = "https://www.spigotmc.org/resources/would-you-rather.89635/";
 }
+
+function redirectBbt() {
+    window.location = "https://www.spigotmc.org/resources/betterbedtime.76142/";
+}
+
+function redirectGa() {
+    window.location = "https://www.spigotmc.org/resources/guardianangel.76988/";
+}
