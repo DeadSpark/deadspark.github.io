@@ -18,8 +18,6 @@ html {
     background-color: #090909;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
-    border: solid black 2px;
-    border-top: none;
 
 }
 
@@ -91,10 +89,10 @@ html {
 
 }
 
-#pluginWYR {
+#pluginBox {
 
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
     background-color: #090909;
     width: 50%;
     border-top-right-radius: 70px;
@@ -105,23 +103,23 @@ html {
 
 }
 
-#pluginWYRLink {
+#pluginText {
 
     text-decoration: none;
     font-family: 'Baloo Chettan 2', cursive;
     color: #EE8A19;
     font-size: 30px;
-    margin-left: 5%;
     margin-top: auto;
     margin-bottom: auto;
-    margin-right: 10%;
+    margin-left: 15%;
 
 }
 
-#pluginWYRIcon {
+#pluginIcon {
 
     margin-top: 2%;
     margin-bottom: 2%;
     margin-left: 2%;
+    border-radius: 50%;
 
 }
