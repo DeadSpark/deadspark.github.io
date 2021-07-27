@@ -16,8 +16,10 @@ html {
     display: flex;
     justify-content: space-between;
     background-color: #090909;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: solid black 2px;
+    border-top: none;
 
 }
 
@@ -98,6 +100,8 @@ html {
     border-top-right-radius: 70px;
     border-bottom-right-radius: 70px;
     cursor: pointer;
+    border: solid black 2px;
+    border-left: none;
 
 }
 
@@ -106,7 +110,7 @@ html {
     text-decoration: none;
     font-family: 'Baloo Chettan 2', cursive;
     color: #EE8A19;
-    font-size: 35px;
+    font-size: 30px;
     margin-left: 5%;
     margin-top: auto;
     margin-bottom: auto;
