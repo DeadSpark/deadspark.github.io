@@ -578,10 +578,6 @@ video {
   line-height: 1.75rem;
 }
 
-.text-1sxl {
-  font-size: 9rem;
-}
-
 .text-rose-300 {
   --tw-text-opacity: 1;
   color: rgb(253 164 175 / var(--tw-text-opacity));
