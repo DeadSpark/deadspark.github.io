@@ -1,0 +1,22 @@
+{
+  "name": "deadspark.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build -i rawstyle.css -o style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeadSpark/deadspark.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeadSpark/deadspark.github.io/issues"
+  },
+  "homepage": "https://github.com/DeadSpark/deadspark.github.io#readme",
+  "dependencies": {
+    "tailwindcss": "^3.1.4"
+  }
+}
