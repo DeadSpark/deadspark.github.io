@@ -6,7 +6,13 @@ module.exports = {
 
   theme: {
     extend: {
-      
+
+      fontFamily: {
+
+        KdamThmorPro: ["Kdam Thmor Pro", "sans-serif"],
+
+      }
+
     },
   },
 
