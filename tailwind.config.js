@@ -9,9 +9,18 @@ module.exports = {
 
       fontFamily: {
 
-        KdamThmorPro: ["Kdam Thmor Pro", "sans-serif"],
+        CabinSketch: ["Cabin Sketch", "cursive"],
+        Jua: ["Jua", "sans-serif"],
 
-      }
+      },
+
+      width: {
+
+        'fifteenp': '15%',
+        'twentyp': '20%',
+        'thirtyp': '30%',
+
+      },
 
     },
   },
